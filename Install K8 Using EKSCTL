@@ -21,7 +21,7 @@ EKSCTL:
 
    mv ./kubectl ~/.local/bin/kubectl
 
-curl -LO https://dl.k8s.io/release/v1.33.0/bin/linux/amd64/kubectl
+curl -LO https://dl.k8s.io/release/v1.33.0/bin/linux/amd64/kubectl (These commands are from kubernetes.io)
 sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
 kubectl version --client
 
